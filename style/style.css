@@ -9,16 +9,16 @@
 }
 
 body {
-  background-image: url(/images/background-1.png);
+  background-image: url(/website-udrio/images/background-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+  margin: 0;
 }
 
 /* Navbar Section */
 .navbar {
-  background-color: white;
   height: 6rem;
   display: flex;
   justify-content: space-between;
@@ -47,3 +47,31 @@ body {
 }
 
 /* HERO SECTION */
+.hero{
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 93.6px);
+}
+
+.hero>* {
+  flex: 1 1 25em;
+}
+
+.hero-p{
+  margin-left: 50px;
+}
+
+
+.hero h1{
+  font-weight: 10;
+  font-size: clamp(40px, 50vw, 70px);
+}
+
+.row{
+  display: flex;
+}
+
+.row img{
+  width: 10em;
+  margin-left: 400px;
+}
