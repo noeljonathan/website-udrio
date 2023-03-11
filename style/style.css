@@ -1,0 +1,51 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: whitesmoke;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar .logo {
+  width: 3.5%;
+}
+
+.navbar .logo img {
+  width: 3rem;
+}
+
+.navbar .feature {
+  width: 62%;
+}
+
+.navbar .feature .row {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .feature .row a {
+  color: black;
+  font-size: 1.6rem;
+  transition: 0.5s;
+}
+
+.navbar .feature .row a:hover {
+  font-size: 1.8rem;
+}
+
+/* HERO SECTION */
