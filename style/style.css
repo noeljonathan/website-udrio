@@ -1,19 +1,24 @@
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: white;
+  font-family: "Popppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
   text-decoration: none;
 }
 
 body {
-  background-color: black;
+  background-image: url(/images/background-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 /* Navbar Section */
 .navbar {
-  background-color: whitesmoke;
+  background-color: white;
   height: 6rem;
   display: flex;
   justify-content: space-between;
@@ -21,20 +26,13 @@ body {
   padding: 0 2rem;
 }
 
-.navbar .logo {
-  width: 3.5%;
-}
-
-.navbar .logo img {
-  width: 3rem;
-}
-
 .navbar .feature {
-  width: 62%;
+  width: 100%;
 }
 
 .navbar .feature .row {
   display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 
