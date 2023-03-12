@@ -9,7 +9,6 @@
 }
 
 body {
-  background-image:url(/images/background-1.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -19,7 +18,7 @@ body {
 
 .row {
   padding-right: 0px;
-  margin-right: 0px ;
+  margin-right: 0px;
 }
 
 /* Navbar Section */
@@ -53,64 +52,30 @@ body {
 }
 
 /* HERO SECTION */
-.banner{
+.banner {
   display: flex;
   align-items: center;
   min-height: calc(100vh - 93.6px);
 }
 
-.banner>* {
+.banner > * {
   flex: 1 1 25em;
 }
 
-.hero{
+.hero {
   margin-left: 50px;
 }
 
-
-.banner h1{
+.banner h1 {
   font-weight: 10;
   font-size: clamp(40px, 50vw, 70px);
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.row img{
+.row img {
   width: 10em;
   margin-left: 400px;
-}
-
-.kontak {
-  padding-top: 20px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100vh;
-}
-
-.kontak h2{
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.list-kontak{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.card{
-  background-color: white;
-  width: 5em;
-}
-
-.card a{
-  display: flex;
-  flex-direction: column;
-  /* width: 10em; */
 }
